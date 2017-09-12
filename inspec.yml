@@ -1,0 +1,10 @@
+name: gdpr-sample-baseline
+title: GDPR Sample Security Baseline
+maintainer: Joe Gardiner
+copyright: Joe Gardiner
+copyright_email: joe@grdnr.io
+license: Apache-2.0
+summary: An example baseline test-suite for GDPR best-preactices on Linux and sample packages
+version: 0.1.0
+supports:
+  - os-family: linux
