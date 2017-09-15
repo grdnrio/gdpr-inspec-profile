@@ -8,3 +8,6 @@ summary: An example baseline test-suite for GDPR best-preactices on Linux and sa
 version: 0.1.0
 supports:
   - os-family: linux
+depends:
+ - name: mysql-baseline
+   url: https://github.com/dev-sec/mysql-baseline/archive/master.tar.gz

@@ -1,0 +1,8 @@
+---
+lockfile_version: 1
+depends:
+- name: mysql-baseline
+  resolved_source:
+    url: https://github.com/dev-sec/mysql-baseline/archive/master.tar.gz
+    sha256: cd0d7886183fa2e9149a17ca923d68f1f79958788ee005cb53023cfbe2db4a06
+  version_constraints: ">= 0"
