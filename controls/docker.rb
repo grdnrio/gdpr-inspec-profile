@@ -16,6 +16,7 @@
 #
 
 title 'Docker images'
+
 control 'dc-01' do
   impact 1.0
   title 'Check EOL images'
