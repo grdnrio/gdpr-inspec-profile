@@ -5,6 +5,6 @@ copyright: Joe Gardiner
 copyright_email: joe@grdnr.io
 license: Apache-2.0
 summary: An example baseline test-suite for GDPR best-preactices on Linux and sample packages
-version: 0.3.3
+version: 0.3.4
 supports:
   - os-family: linux

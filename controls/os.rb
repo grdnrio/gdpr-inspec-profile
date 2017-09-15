@@ -69,6 +69,6 @@ control 'os-05' do
   title 'Check root password refresh'
   desc 'The root password should be changed at least every 90 days'
   describe user ('root') do
-    its('maxdays') { should_not be > 90 }
+    its('maxdays') { should be < 90 }
   end
 end
