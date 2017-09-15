@@ -8,3 +8,4 @@ summary: An example baseline test-suite for GDPR best-preactices on Linux and sa
 version: 0.3.2
 supports:
   - os-family: linux
+  
