@@ -66,9 +66,9 @@ end
 
 control 'os-05' do
   impact 1.0
-  title 'Check root password length'
-  desc 'The root password should not be less than 16 characters'
-  describe passwd.users('root') do
-    its('length') { should_not be < 16 }
+  title 'Check root password refresh'
+  desc 'The root password should be changed at least every 90 days'
+  describe user ('root') do
+    its('maxdays') { should_not be > 90 }
   end
 end
